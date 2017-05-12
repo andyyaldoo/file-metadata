@@ -1,0 +1,11 @@
+doctype html
+html(lang="en")
+  head
+    title File Metadata
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+    link(rel="stylesheet", href="style.css")
+  body
+    h3 Submit a file to view its file size
+    form(action="/get-file-size", method="POST", enctype="multipart/form-data")
+        input(type="file", value="Choose file", name="avatar")
+        input(type="submit", value="submit")

@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 1.4em;
+}
+input[type="file"] {
+    display: inline;
+}
